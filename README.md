@@ -35,3 +35,14 @@ Crawler is a C# Class to crawl directories to get files from them. Useful, and s
 ```cs
   List<FileDef> myList = myCrawl.Files;
 ```
+
+
+**Upcoming Changes**
+
+```cs
+  List<DirDef> myDirs = myCrawl.Directories;
+```
+
+```cs
+  List<TreeView> myTree = myCrawl.Tree;
+```
